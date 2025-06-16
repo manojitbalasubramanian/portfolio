@@ -1,0 +1,9 @@
+{
+  "name": "manojitbalasubramanian.in",
+  "version": "1.0.0",
+  "description": "portfolio page",
+  "main": "index.js",
+  "repository": "https://github.com/manojitbalasubramanian/portfolio.git",
+  "author": "manojitbalasubramanian <manojitbalasubramanianr@gmail.com>",
+  "license": "MIT"
+}
