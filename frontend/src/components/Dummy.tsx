@@ -4,7 +4,7 @@ import trisha from "../assets/trisha.png";
 function Dummy() {
   return (
     <div>
-      <center>
+      <center className="text-black h-screen flex items-center justify-center flex-col">
         <h2 className="font-bold text-3xl ">Vanakam nanbargale🙏</h2>
         <br></br>
         <p className="font-serif">
