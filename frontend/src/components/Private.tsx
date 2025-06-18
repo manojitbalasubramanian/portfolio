@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Private() {
   return (
-    <div>Private</div>
-  )
+    <div>
+      Private
+    </div>
+  );
 }
 
-export default Private
+export default Private;
