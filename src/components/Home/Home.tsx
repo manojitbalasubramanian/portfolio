@@ -28,7 +28,7 @@ const Home: FC = () => {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> MANOJIT BALASUBRAMANIAN</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -59,7 +59,7 @@ const Home: FC = () => {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/manojjitbalasubramanian"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -69,7 +69,7 @@ const Home: FC = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://x.com/rbmanojit"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -79,7 +79,7 @@ const Home: FC = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/manojitbalasubramanian/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -89,7 +89,7 @@ const Home: FC = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/manojit_balasubramanian"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

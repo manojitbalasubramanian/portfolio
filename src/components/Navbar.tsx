@@ -2,7 +2,7 @@ import React, { useState, FC } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+// import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -38,8 +38,9 @@ const NavBar: FC = () => {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand href="/Portfolio" className="d-flex">
+          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          <h6 style={{ color: "white", marginTop: "10px" }}>Manojit Balasubramanian</h6>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -94,7 +95,7 @@ const NavBar: FC = () => {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="/Portfolio/about"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,7 +105,7 @@ const NavBar: FC = () => {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/manojitbalasubramanian/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
