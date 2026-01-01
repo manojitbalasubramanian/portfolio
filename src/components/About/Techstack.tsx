@@ -37,6 +37,14 @@ const Techstack: FC = () => {
         <img src={Typescript} alt="typescript" />
         <div className="tech-icons-text">Typescript</div>
       </Col>
+            <Col xs={4} md={2} className="tech-icons">
+        <img src={Java} alt="haskell" />
+        <div className="tech-icons-text">Java</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        {/* <img src={C} alt="c++" /> */}
+        <div className="tech-icons-text">C</div>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Go} alt="go" />
         <div className="tech-icons-text">Go</div>
@@ -75,10 +83,7 @@ const Techstack: FC = () => {
         <img src={Python} alt="Python" />
         <div className="tech-icons-text">Python</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Java} alt="haskell" />
-        <div className="tech-icons-text">Java</div>
-      </Col>
+
 
 
       <Col xs={4} md={2} className="tech-icons">

@@ -38,7 +38,7 @@ const NavBar: FC = () => {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/Portfolio" className="d-flex">
+        <Navbar.Brand href="/portfolio" className="d-flex">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
           <h6 style={{ color: "white", marginTop: "10px" }}>Manojit Balasubramanian</h6>
         </Navbar.Brand>

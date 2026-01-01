@@ -16,6 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import MusicButton from "./components/MusicButton";
 
 const App: FC = () => {
   const [load, upadateLoad] = useState<boolean>(true);
@@ -42,6 +43,7 @@ const App: FC = () => {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
+        <MusicButton />
       </div>
     </Router>
   );
